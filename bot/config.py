@@ -5,7 +5,7 @@ load_dotenv("config.env")
 
 
 class Telegram:
-    API_ID = int(getenv("API_ID", "0"))
+    API_ID = int(getenv("API_ID", ""))
     API_HASH = getenv("API_HASH", "")
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     PORT = int(getenv("PORT", 8080))
